@@ -1,0 +1,63 @@
+@media (max-Width:1400px)
+{
+    .left{
+        width:85vw;
+        z-index:1;
+        left:-100%;
+        background-color: black;
+        position: fixed;
+        
+
+    }
+    .footer
+    {
+       margin-left:2vh;
+       padding-left:10px;
+       padding-right: 10px;
+       display: flex;
+       gap: 26px;
+       position: absolute;
+       top: 72vh;
+    }
+    
+    .right
+    {
+        width:100%;
+        position: absolute;
+        left:0vh;
+        min-height: 200vh;
+    }
+    .bar{
+        width: 87%;
+        left: 1vh;
+        bottom: 0vh;
+        position: fixed;
+    }
+    .ham
+    {
+        display: block;
+    }
+    .seek
+    {
+        width:97%;
+        left:1vh;
+        position: absolute;
+    }
+    .above
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn>:nth-child(2)
+    {
+       position: absolute;
+       right: 13vh;
+
+    }
+    
+    
+    
+    
+} 
